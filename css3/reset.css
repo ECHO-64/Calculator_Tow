@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#2196f3, #e91e63);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: monospace;
+}

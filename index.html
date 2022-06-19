@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simpleCalculator</title>
+    <link rel="stylesheet" href="./css3/reset.css" />
+    <link rel="stylesheet" href="./css3/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./css3/icon/calculator.svg"
+      type="image/x-icon"
+    />
+    <!-- Made With Love By buttonnuxLover -->
+  </head>
+  <body>
+    <div class="calculator">
+      <div type="number" id="display" readonly>
+        <button id="input"></button>
+        <button id="result"></button>
+      </div>
+      <div class="keysContainer">
+        <div class="numbers">
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>0</button>
+          <button data-action="decimal" style="font-size: 25px">.</button>
+          <button data-action="calculate">=</button>
+        </div>
+        <div class="operators">
+          <button data-action="delete">DEl</button>
+          <button data-action="add">+</button>
+          <button data-action="subtract">-</button>
+          <button data-action="multiply" style="font-size: 18px">*</button>
+          <button data-action="divide">/</button>
+          <button data-action="clearAll">CA</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
